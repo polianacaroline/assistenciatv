@@ -12,7 +12,7 @@ services:
       WORDPRESS_DB_PASSWORD: 123@senac
       WORDPRESS_DB_NAME: dbtv
     volumes:
-      - ~/apptv:/var/www/html
+      - ~/assistenciatv/apptv:/var/www/html
   db:
     image: mysql:latest
     container_name: bancotv
@@ -25,4 +25,4 @@ services:
      MYSQL_PASSWORD: 123@senac
      MYSQL_ROOT_PASSWORD: 123@senac
     volumes:
-     - ~/dbtv:/var/lib/mysql
+     - ~/assistenciatv/dbtv:/var/lib/mysql
