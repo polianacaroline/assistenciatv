@@ -3,8 +3,9 @@
 inicialização do site: 
 criação da Home, colocamos degradê de fundo, menu e roda pé, adicionamos videos, botão e imagens. 
 adicionamos o carrosel de marcas, falamos sobre a empresa e seus beneficios.
-![home](https://github.com/polianacaroline/assistenciatv/assets/104094484/bd81a232-ef62-41d6-b32f-e44bd3de53a4)
  ![contato77](https://github.com/polianacaroline/assistenciatv/assets/104094484/f850dc22-5f27-4f42-af53-8904a93710ef)
+![home](https://github.com/polianacaroline/assistenciatv/assets/104094484/bd81a232-ef62-41d6-b32f-e44bd3de53a4)
+
 
 criação da pagina Contato:
 colocamos degradê de fundo, menu e roda pé, adicionamos videos, botão e imagens.
