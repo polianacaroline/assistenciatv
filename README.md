@@ -23,7 +23,7 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
 
 ![TelaLogin](https://github.com/polianacaroline/assistenciatv/assets/104094484/b45e448f-f457-45f9-8d00-3270b57ad535)
 # Instruções para instalação e uso do aplicativo
-# Pré requisitos (20px)
+## Pré requisitos 
  1. Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação selecione todos os recursos conforme indicado na imagem.
 https://adoptium.net/
 
@@ -47,6 +47,8 @@ https://www.apachefriends.org/
 ![xampp3](https://github.com/polianacaroline/assistenciatv/assets/104094484/877b46ff-bb18-4e0c-b8e2-504ef6a763d1)
 
  4. Na aba SQL, copie e cole o código abaixo e execute. (Passos 1,2 e 3 indicados na imagem)
+    
+    CREATE TABLE alunos (ra int PRIMARY KEY AUTO_INCREMENT,nome varchar(30) NOT NULL,foto LONGBLOB NOT NULL);
     
 ![xampp4](https://github.com/polianacaroline/assistenciatv/assets/104094484/ead02bda-f5b3-4487-a6fa-04d9c1e2408b)
 
