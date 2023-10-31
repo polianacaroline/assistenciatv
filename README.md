@@ -61,7 +61,9 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
     ![desligado](https://github.com/polianacaroline/assistenciatv/assets/104094484/9da121ec-c8c7-43c1-9d1a-9d2101765403)
 
  3. Se tudo estiver OK você pode iniciar gerando uma busca pelo Usuário padrão.
+    
     Login: ("admin")
+    
     Senha: ("admin")
 
 
