@@ -49,7 +49,7 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
 
  4. Na aba SQL, copie e cole o código abaixo e execute. (Passos 1,2 e 3 indicados na imagem)
     
-CREATE TABLE alunos (ra int PRIMARY KEY AUTO_INCREMENT,nome varchar(30) NOT NULL,foto LONGBLOB NOT NULL);
+!CREATE TABLE alunos (ra int PRIMARY KEY AUTO_INCREMENT,nome varchar(30) NOT NULL,foto LONGBLOB NOT NULL);
     
 ![xampp4](https://github.com/polianacaroline/assistenciatv/assets/104094484/ead02bda-f5b3-4487-a6fa-04d9c1e2408b)
 
