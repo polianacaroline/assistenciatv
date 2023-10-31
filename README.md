@@ -23,7 +23,7 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
 
 ![TelaLogin](https://github.com/polianacaroline/assistenciatv/assets/104094484/b45e448f-f457-45f9-8d00-3270b57ad535)
 # Instruções para instalação e uso do aplicativo
-# Pré requisitos
+# Pré requisitos (20px)
  1. Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação selecione todos os recursos conforme indicado na imagem.
 https://adoptium.net/
 
