@@ -24,13 +24,14 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
 ![TelaLogin](https://github.com/polianacaroline/assistenciatv/assets/104094484/b45e448f-f457-45f9-8d00-3270b57ad535)
 # Instruções para instalação e uso do aplicativo
 ## Pré requisitos 
+
  1. Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação selecione todos os recursos conforme indicado na imagem.
-https://adoptium.net/
+[download openJDK]https://adoptium.net/
 
 ![openjdk](https://github.com/polianacaroline/assistenciatv/assets/104094484/e2f2dfda-ade7-4dda-87e6-4ff3591707a5)
 
  2. Ter um banco de dados local baseado no MySQL 8 ou MariaDB compatível, no exemplo usei o XAMPP que pode ser obtido no link indicado.
-https://www.apachefriends.org/
+[download XAMPP]https://www.apachefriends.org/
 
 # Instalação do banco
 
