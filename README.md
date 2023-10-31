@@ -26,12 +26,12 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
 ## Pré requisitos 
 
  1. Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação selecione todos os recursos conforme indicado na imagem.
-[download openJDK]https://adoptium.net/
+[download openJDK] (https://adoptium.net/)
 
 ![openjdk](https://github.com/polianacaroline/assistenciatv/assets/104094484/e2f2dfda-ade7-4dda-87e6-4ff3591707a5)
 
  2. Ter um banco de dados local baseado no MySQL 8 ou MariaDB compatível, no exemplo usei o XAMPP que pode ser obtido no link indicado.
-[download XAMPP]https://www.apachefriends.org/
+[download XAMPP] (https://www.apachefriends.org/)
 
 # Instalação do banco
 
