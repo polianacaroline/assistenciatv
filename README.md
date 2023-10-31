@@ -22,12 +22,15 @@ Tela Login:
 
                 
 Tela Principal:
+
 ![TelaPrincipal](https://github.com/polianacaroline/assistenciatv/assets/104094484/99a8cb0c-52c6-446b-a5c3-b55d5231b598)
 
 Tela Fornecedores:
+
 ![TelaFornecedores ](https://github.com/polianacaroline/assistenciatv/assets/104094484/c48c8575-47a8-4e6a-83f1-b00f9b0a7f92)
 
 Tela Clientes:
+
 ![TelaClientes](https://github.com/polianacaroline/assistenciatv/assets/104094484/bd285d6b-3009-4c92-aa83-ce8269bff729)
 
 Tela Usuário
