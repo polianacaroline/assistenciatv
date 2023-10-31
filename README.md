@@ -85,19 +85,19 @@ Essa Tela acessa os Usuário, Clientes, Fornecedores, Serviços, Relatório, Pro
 
 Tela Fornecedores:
 
-Essa Tela para cadastro dos Fornecedores.
+Essa Tela para adicionar cadastro dos Fornecedores.
 
 ![TelaFornecedores ](https://github.com/polianacaroline/assistenciatv/assets/104094484/c48c8575-47a8-4e6a-83f1-b00f9b0a7f92)
 
 Tela Clientes:
 
-Essa Tela para cadastro dos Clientes.
+Essa Tela para adicionar cadastro dos Clientes.
 
 ![TelaClientes](https://github.com/polianacaroline/assistenciatv/assets/104094484/bd285d6b-3009-4c92-aa83-ce8269bff729)
 
 Tela Usuário:
 
-Essa Tela para cadastro  do Usuário.
+Essa Tela para adicionar cadastro  do Usuário.
 
 ![TelaUsuarios](https://github.com/polianacaroline/assistenciatv/assets/104094484/8c22a39d-69cd-42fa-9ea3-e0ff44dcead2)
 
@@ -109,7 +109,7 @@ Essa Tela contem informações sobre licença MIT e link do GitHub.
 
 Tela Serviço:
 
-Essa Tela para cadastro de Ordem de Serviço.
+Essa Tela para adicionar cadastro de Ordem de Serviço.
 
 ![TelaServicos](https://github.com/polianacaroline/assistenciatv/assets/104094484/4d8c6a77-2d28-4127-84ba-bd9cb1d82ad7)
 
