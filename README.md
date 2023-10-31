@@ -22,7 +22,7 @@ adicionamos um google maps, o endereço da empresa, icones de contatos e avalia�
 Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de informações para acesso com o Usuário.
 
 ![TelaLogin](https://github.com/polianacaroline/assistenciatv/assets/104094484/b45e448f-f457-45f9-8d00-3270b57ad535)
-#introdução
+# introdução
 Instruções para instalação e uso do aplicativo
 
 Pré requisitos
@@ -30,6 +30,7 @@ Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LT
 download openJDK)
 
 openJDK
+
 # Sistema OS
 Tela Login:
 
