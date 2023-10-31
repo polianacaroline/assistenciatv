@@ -15,9 +15,10 @@ adicionamos um google maps, o endereço da empresa, icones de contatos e avalia�
 
 
 # Sistema OS
+Tela Login:
 
 ![TelaLogin](https://github.com/polianacaroline/assistenciatv/assets/104094484/b45e448f-f457-45f9-8d00-3270b57ad535)
-Tela Login:
+
 
 
                 
@@ -33,17 +34,22 @@ Tela Clientes:
 
 ![TelaClientes](https://github.com/polianacaroline/assistenciatv/assets/104094484/bd285d6b-3009-4c92-aa83-ce8269bff729)
 
-Tela Usuário
+Tela Usuário:
+
 ![TelaUsuarios](https://github.com/polianacaroline/assistenciatv/assets/104094484/8c22a39d-69cd-42fa-9ea3-e0ff44dcead2)
 
 Tela Sobre:
+
 ![TelaSobres](https://github.com/polianacaroline/assistenciatv/assets/104094484/62ecc091-7456-4b00-8c80-b1225d9d1fae)
 
 Tela Serviço:
+
 ![TelaServicos](https://github.com/polianacaroline/assistenciatv/assets/104094484/4d8c6a77-2d28-4127-84ba-bd9cb1d82ad7)
 
-Tela Relatório
+Tela Relatório:
+
 ![TelaRelatorios](https://github.com/polianacaroline/assistenciatv/assets/104094484/1c288aff-68a9-4019-8b5d-8db6e46cd724)
 
 Tela Produto: 
+
 ![TelaProdutos](https://github.com/polianacaroline/assistenciatv/assets/104094484/83eda0d4-3758-4065-8bfc-c089a1ae5360)
