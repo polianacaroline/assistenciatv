@@ -66,7 +66,7 @@ public class Sobre extends JDialog {
 		getContentPane().setLayout(null);
 		setLocationRelativeTo(null);
 		
-		JLabel lblAutora = new JLabel("AUTORA:");
+		JLabel lblAutora = new JLabel("AUTOR:");
 		lblAutora.setHorizontalAlignment(SwingConstants.CENTER);
 		lblAutora.setFont(new Font("Tahoma", Font.BOLD, 10));
 		lblAutora.setBounds(12, 295, 428, 14);
@@ -77,7 +77,7 @@ public class Sobre extends JDialog {
 		lblNewLabel_3.setBounds(10, 240, 128, 103);
 		getContentPane().add(lblNewLabel_3);
 		
-		JLabel lblThainara = new JLabel("THAINARA PIRES DA SILVA");
+		JLabel lblThainara = new JLabel("Tech of Titans");
 		lblThainara.setHorizontalAlignment(SwingConstants.CENTER);
 		lblThainara.setFont(new Font("Tahoma", Font.BOLD, 10));
 		lblThainara.setBounds(12, 307, 428, 14);
@@ -107,7 +107,7 @@ public class Sobre extends JDialog {
 			public void mouseClicked(MouseEvent e) {
 				 try {
 					 JOptionPane.showMessageDialog(null, "Voce será encaminhado para o repositório do projeto no GitHub.");
-					 URI uri = new URI("https://github.com/thainarapires/sistemaOS");
+					 URI uri = new URI("https://github.com/polianacaroline/assistenciatv");
 					 Desktop.getDesktop().browse(uri);
 			        }catch(Exception erro){
 			            System.out.println(erro); 
