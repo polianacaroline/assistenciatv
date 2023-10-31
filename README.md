@@ -6,7 +6,7 @@ inicialização do site:
 Criação da página Home, colocamos degradê de fundo, menu e roda pé, adicionamos videos, botão e imagens. 
 adicionamos o carrosel de marcas, falamos sobre a empresa e seus beneficios.
 
- ![contato77](https://github.com/polianacaroline/assistenciatv/assets/104094484/f850dc22-5f27-4f42-af53-8904a93710ef)
+![contato77](https://github.com/polianacaroline/assistenciatv/assets/104094484/f850dc22-5f27-4f42-af53-8904a93710ef)
 ![home](https://github.com/polianacaroline/assistenciatv/assets/104094484/bd81a232-ef62-41d6-b32f-e44bd3de53a4)
 
 
@@ -58,7 +58,7 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
 
  2. Execute e verifique no rodapé o ícone que representa o banco de dados conectado. Se estiver com erro (conforme indicado na figura) verifique o XAMPP e revise novamente os passos 1 a 4 da instalação do banco.
 
-    ![desligado](https://github.com/polianacaroline/assistenciatv/assets/104094484/9da121ec-c8c7-43c1-9d1a-9d2101765403)
+![desligado](https://github.com/polianacaroline/assistenciatv/assets/104094484/9da121ec-c8c7-43c1-9d1a-9d2101765403)
 
  3. Se tudo estiver OK você pode iniciar gerando uma busca pelo Usuário padrão.
     
