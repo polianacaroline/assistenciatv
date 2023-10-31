@@ -27,7 +27,31 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
  1. Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação selecione todos os recursos conforme indicado na imagem.
 https://adoptium.net/
 
+![openjdk](https://github.com/polianacaroline/assistenciatv/assets/104094484/e2f2dfda-ade7-4dda-87e6-4ff3591707a5)
+
+ 2. Ter um banco de dados local baseado no MySQL 8 ou MariaDB compatível, no exemplo usei o XAMPP que pode ser obtido no link indicado.
+https://www.apachefriends.org/
+
+# Instalação do banco
+
+ 1. Iniciar os serviços Apache e MySQL no XAMPP, conforme indicado na imagem.
+    
+![xampp1](https://github.com/polianacaroline/assistenciatv/assets/104094484/6515bd96-871a-4e74-884d-61dd40a3fe01)
+
+ 2. No navegador de internet digite: localhost/dashboard e selecione no menu: phpMyAdmin conforme indicado na imagem.
+    
+![xampp2](https://github.com/polianacaroline/assistenciatv/assets/104094484/d3dec7f1-b919-47a0-a602-75581af70aff)
+
+ 3. Crie um novo banco de dados de nome dbcarometro (sem usar acentuação) conforme indicado na imagem.
+ 4. 
+![xampp3](https://github.com/polianacaroline/assistenciatv/assets/104094484/877b46ff-bb18-4e0c-b8e2-504ef6a763d1)
+
+ 5. Na aba SQL, copie e cole o código abaixo e execute. (Passos 1,2 e 3 indicados na imagem)
+    
+![xampp4](https://github.com/polianacaroline/assistenciatv/assets/104094484/ead02bda-f5b3-4487-a6fa-04d9c1e2408b)
+
 # Sistema OS
+
 Tela Login:
 
 Essa Tela acessa a tela principal, ultilizando seu usuário.
