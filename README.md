@@ -43,12 +43,24 @@ https://www.apachefriends.org/
 ![xampp2](https://github.com/polianacaroline/assistenciatv/assets/104094484/d3dec7f1-b919-47a0-a602-75581af70aff)
 
  3. Crie um novo banco de dados de nome dbcarometro (sem usar acentuação) conforme indicado na imagem.
- 4. 
+  
 ![xampp3](https://github.com/polianacaroline/assistenciatv/assets/104094484/877b46ff-bb18-4e0c-b8e2-504ef6a763d1)
 
- 5. Na aba SQL, copie e cole o código abaixo e execute. (Passos 1,2 e 3 indicados na imagem)
+ 4. Na aba SQL, copie e cole o código abaixo e execute. (Passos 1,2 e 3 indicados na imagem)
     
 ![xampp4](https://github.com/polianacaroline/assistenciatv/assets/104094484/ead02bda-f5b3-4487-a6fa-04d9c1e2408b)
+
+# Instalação do aplicativo
+ 1. Em Releases faça o download do arquivo Login.jar
+
+
+
+ 2. Execute e verifique no rodapé o ícone que representa o banco de dados conectado. Se estiver com erro (conforme indicado na figura) verifique o XAMPP e revise novamente os passos 1 a 4 da instalação do banco.
+
+ 3. Se tudo estiver OK você pode iniciar gerando uma busca pelo Usuário padrão.
+    Login: ("admin")
+    Senha: ("admin")
+
 
 # Sistema OS
 
