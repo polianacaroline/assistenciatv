@@ -26,7 +26,7 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
 ## Pré requisitos 
 
  1. Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação selecione todos os recursos conforme indicado na imagem.
-[download openJDK] (https://adoptium.net/)
+([download openJDK] https://adoptium.net/)
 
 ![openjdk](https://github.com/polianacaroline/assistenciatv/assets/104094484/e2f2dfda-ade7-4dda-87e6-4ff3591707a5)
 
@@ -56,9 +56,9 @@ Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de info
 # Instalação do aplicativo
  1. Em Releases faça o download do arquivo Login.jar
 
-
-
  2. Execute e verifique no rodapé o ícone que representa o banco de dados conectado. Se estiver com erro (conforme indicado na figura) verifique o XAMPP e revise novamente os passos 1 a 4 da instalação do banco.
+
+    ![desligado](https://github.com/polianacaroline/assistenciatv/assets/104094484/9da121ec-c8c7-43c1-9d1a-9d2101765403)
 
  3. Se tudo estiver OK você pode iniciar gerando uma busca pelo Usuário padrão.
     Login: ("admin")
