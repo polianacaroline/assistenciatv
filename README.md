@@ -20,22 +20,38 @@ adicionamos um google maps, o endereço da empresa, icones de contatos e avalia�
 
 
 # Sistema OS
-Tela Login:
+Login de aplicativo para desktop (Windows, Linux ou MAC) de repositório de informações para acesso com o Usuário.
 
 ![TelaLogin](https://github.com/polianacaroline/assistenciatv/assets/104094484/b45e448f-f457-45f9-8d00-3270b57ad535)
 
+Instruções para instalação e uso do aplicativo
+Pré requisitos
+Ter o Java versão 17 ou superior instalado. Testado com a versão openJDK 21 LTS que pode ser obtida no link indicado. Na instalação selecione todos os recursos conforme indicado na imagem.
+download openJDK)
+
+openJDK
+
+Tela Login:
+
+Essa Tela acessa a tela principal, ultilizando seu usuário.
+
+![TelaLogin](https://github.com/polianacaroline/assistenciatv/assets/104094484/b45e448f-f457-45f9-8d00-3270b57ad535)
 
 
                 
 Tela Principal:
 
+Essa Tela acessa os Usuário, Clientes, Fornecedores, Serviços, Relatório, Produtos.
+
 ![TelaPrincipal](https://github.com/polianacaroline/assistenciatv/assets/104094484/99a8cb0c-52c6-446b-a5c3-b55d5231b598)
 
 Tela Fornecedores:
 
+Essa Tela cadastra fornecedores.
 ![TelaFornecedores ](https://github.com/polianacaroline/assistenciatv/assets/104094484/c48c8575-47a8-4e6a-83f1-b00f9b0a7f92)
 
 Tela Clientes:
+
 
 ![TelaClientes](https://github.com/polianacaroline/assistenciatv/assets/104094484/bd285d6b-3009-4c92-aa83-ce8269bff729)
 
