@@ -121,6 +121,6 @@ Essa Tela contem Relatorio de Produtos, Clientes, Serviços e Usuários.
 
 Tela Produto: 
 
-Essa Tela contem um método de inserção de imagem, para adição de um Produto. 
+Essa Tela contem um método de inserção de imagem, para adição de um Produto e leitura de Código de Barras. 
 
 ![TelaProdutos](https://github.com/polianacaroline/assistenciatv/assets/104094484/83eda0d4-3758-4065-8bfc-c089a1ae5360)
