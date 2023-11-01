@@ -11,7 +11,8 @@ adicionamos o carrosel de marcas, falamos sobre a empresa e seus beneficios.
 ![DescHOME](https://github.com/polianacaroline/assistenciatv/assets/104094484/21724ea5-9451-479f-8219-50f6636f0d60)
 
 Essa é a criação da página sobre, aqui tem informações sobre a empresa.
-![SiteHOME](https://github.com/polianacaroline/assistenciatv/assets/104094484/c7e5c353-adea-4ad7-900f-2c6d1f72146e)
+
+![SiteSobre](https://github.com/polianacaroline/assistenciatv/assets/104094484/7e49c30b-eadb-4895-a389-11903d5583b1)
 ![descSobre](https://github.com/polianacaroline/assistenciatv/assets/104094484/083031ac-d7cc-45db-a368-21580ebd7aeb)
 
 
