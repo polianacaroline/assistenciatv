@@ -80,86 +80,87 @@ public class Relatorios extends JDialog {
 		setBounds(100, 100, 425, 459);
 		getContentPane().setLayout(null);
 		setLocationRelativeTo(null);
-		
-				JPanel panel = new JPanel();
-				panel.setForeground(new Color(0, 51, 255));
-				panel.setBackground(SystemColor.textHighlight);
-				panel.setBounds(0, 0, 438, 461);
-				getContentPane().add(panel);
-				panel.setLayout(null);
-				
-						JButton btnClientes = new JButton("CLIENTES");
-						btnClientes.setBorderPainted(false);
-						btnClientes.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
-						btnClientes.setForeground(Color.BLACK);
-						btnClientes.setBounds(79, 226, 260, 68);
-						panel.add(btnClientes);
-						btnClientes.setFont(new Font("Arial", Font.BOLD, 16));
-						btnClientes.setFocusPainted(false);
-						btnClientes.setToolTipText("Clientes");
-						btnClientes.setIcon(new ImageIcon(Relatorios.class.getResource("/img/309041_users_group_people_icon.png")));
-						btnClientes.addActionListener(new ActionListener() {
-							public void actionPerformed(ActionEvent e) {
-								relatorioClientes();
-							}
-						});
-						btnClientes.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-						
-								JButton btnServicos = new JButton("SERVIÇOS");
-								btnServicos.setBorderPainted(false);
-								btnServicos.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
-								btnServicos.setForeground(Color.BLACK);
-								btnServicos.setBounds(79, 132, 260, 68);
-								panel.add(btnServicos);
-								btnServicos.setFont(new Font("Arial", Font.BOLD, 16));
-								btnServicos.setFocusPainted(false);
-								btnServicos.setToolTipText("Serviços");
-								btnServicos.setIcon(new ImageIcon(Relatorios.class.getResource("/img/serv.png")));
-								btnServicos.addActionListener(new ActionListener() {
-									public void actionPerformed(ActionEvent e) {
-										relatorioServicos();
-									}
-								});
-								btnServicos.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-												
-														JButton btnServicos_1 = new JButton("ESTOQUE");
-														btnServicos_1.setBorderPainted(false);
-														btnServicos_1.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
-														btnServicos_1.setForeground(Color.BLACK);
-														btnServicos_1.setBounds(79, 37, 260, 68);
-														panel.add(btnServicos_1);
-														btnServicos_1.setFont(new Font("Arial", Font.BOLD, 16));
-														btnServicos_1.setFocusPainted(false);
-														btnServicos_1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-														btnServicos_1.addActionListener(new ActionListener() {
-															public void actionPerformed(ActionEvent e) {
-																relatorioEstoque();
-															}
-														});
-														btnServicos_1.setIcon(new ImageIcon(Relatorios.class.getResource("/img/boxxq.png")));
-														btnServicos_1.setToolTipText("Serviços");
-																
-																JButton btnUser = new JButton("USUÁRIOS");
-																btnUser.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-																btnUser.setBorderPainted(false);
-																btnUser.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
-																btnUser.setForeground(Color.BLACK);
-																btnUser.setBounds(79, 320, 260, 68);
-																panel.add(btnUser);
-																btnUser.setIcon(new ImageIcon(Relatorios.class.getResource("/img/372902_user_name_round_username_linecon_icon.png")));
-																btnUser.addActionListener(new ActionListener() {
-																	public void actionPerformed(ActionEvent e) {
-																		relatorioUsers();
-																	}
-																});
-																btnUser.setFont(new Font("Arial", Font.BOLD, 16));
-																btnUser.setFocusPainted(false);
-																btnUser.setToolTipText("Clientes");
-																
-																JLabel lblNewLabel = new JLabel("");
-																lblNewLabel.setIcon(new ImageIcon(Relatorios.class.getResource("/img/sois.png")));
-																lblNewLabel.setBounds(-20, -13, 446, 589);
-																panel.add(lblNewLabel);
+
+		JPanel panel = new JPanel();
+		panel.setForeground(new Color(0, 51, 255));
+		panel.setBackground(SystemColor.textHighlight);
+		panel.setBounds(0, 0, 438, 461);
+		getContentPane().add(panel);
+		panel.setLayout(null);
+
+		JButton btnClientes = new JButton("CLIENTES");
+		btnClientes.setBorderPainted(false);
+		btnClientes.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		btnClientes.setForeground(Color.BLACK);
+		btnClientes.setBounds(79, 226, 260, 68);
+		panel.add(btnClientes);
+		btnClientes.setFont(new Font("Arial", Font.BOLD, 16));
+		btnClientes.setFocusPainted(false);
+		btnClientes.setToolTipText("Clientes");
+		btnClientes.setIcon(new ImageIcon(Relatorios.class.getResource("/img/309041_users_group_people_icon.png")));
+		btnClientes.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				relatorioClientes();
+			}
+		});
+		btnClientes.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+
+		JButton btnServicos = new JButton("SERVIÇOS");
+		btnServicos.setBorderPainted(false);
+		btnServicos.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		btnServicos.setForeground(Color.BLACK);
+		btnServicos.setBounds(79, 132, 260, 68);
+		panel.add(btnServicos);
+		btnServicos.setFont(new Font("Arial", Font.BOLD, 16));
+		btnServicos.setFocusPainted(false);
+		btnServicos.setToolTipText("Serviços");
+		btnServicos.setIcon(new ImageIcon(Relatorios.class.getResource("/img/serv.png")));
+		btnServicos.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				relatorioServicos();
+			}
+		});
+		btnServicos.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+
+		JButton btnServicos_1 = new JButton("ESTOQUE");
+		btnServicos_1.setBorderPainted(false);
+		btnServicos_1.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		btnServicos_1.setForeground(Color.BLACK);
+		btnServicos_1.setBounds(79, 37, 260, 68);
+		panel.add(btnServicos_1);
+		btnServicos_1.setFont(new Font("Arial", Font.BOLD, 16));
+		btnServicos_1.setFocusPainted(false);
+		btnServicos_1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+		btnServicos_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				relatorioEstoque();
+			}
+		});
+		btnServicos_1.setIcon(new ImageIcon(Relatorios.class.getResource("/img/boxxq.png")));
+		btnServicos_1.setToolTipText("Serviços");
+
+		JButton btnUser = new JButton("USUÁRIOS");
+		btnUser.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+		btnUser.setBorderPainted(false);
+		btnUser.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		btnUser.setForeground(Color.BLACK);
+		btnUser.setBounds(79, 320, 260, 68);
+		panel.add(btnUser);
+		btnUser.setIcon(
+				new ImageIcon(Relatorios.class.getResource("/img/372902_user_name_round_username_linecon_icon.png")));
+		btnUser.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				relatorioUsers();
+			}
+		});
+		btnUser.setFont(new Font("Arial", Font.BOLD, 16));
+		btnUser.setFocusPainted(false);
+		btnUser.setToolTipText("Clientes");
+
+		JLabel lblNewLabel = new JLabel("");
+		lblNewLabel.setIcon(new ImageIcon(Relatorios.class.getResource("/img/sois.png")));
+		lblNewLabel.setBounds(-20, -13, 446, 589);
+		panel.add(lblNewLabel);
 
 	}
 
@@ -225,6 +226,7 @@ public class Relatorios extends JDialog {
 			System.out.println(e);
 		}
 	}
+
 	private void relatorioUsers() {
 
 		Document document = new Document();
@@ -284,7 +286,6 @@ public class Relatorios extends JDialog {
 			System.out.println(e);
 		}
 	}
-
 
 	/**
 	 * Metodo responsavel por: imprimir o relatorio de servicos.
@@ -379,14 +380,49 @@ public class Relatorios extends JDialog {
 			Date dataRelatorio = new Date();
 			DateFormat formatador = DateFormat.getDateInstance(DateFormat.FULL);
 			document.add(new Paragraph(formatador.format(dataRelatorio)));
+			
+			document.add(new Paragraph("Produtos em Estoque:"));
+			document.add(new Paragraph(" "));
 
-			document.add(new Paragraph("Estoque:"));
+			String readprod = "select codigo as código, nome as produto, valor as valor, date_format(dataval, '%d/%m/%Y') as validade, estoque, estoquemin as estóque_mínimo from produtos where estoque";
+			
+			try {
+
+			con = dao.conectar();
+			pst = con.prepareStatement(readprod);
+			rs = pst.executeQuery();
+
+			PdfPTable tabela1 = new PdfPTable(6);
+
+			PdfPCell col100 = new PdfPCell(new Paragraph("código: "));
+			PdfPCell col200 = new PdfPCell(new Paragraph("produto: "));
+			PdfPCell col600 = new PdfPCell(new Paragraph("valor: "));
+			PdfPCell col300 = new PdfPCell(new Paragraph("validade: "));
+			PdfPCell col400 = new PdfPCell(new Paragraph("estoque: "));
+			PdfPCell col500 = new PdfPCell(new Paragraph("estoque mínimo: "));
+			
+			tabela1.addCell(col100);
+			tabela1.addCell(col200);
+			tabela1.addCell(col600);
+			tabela1.addCell(col300);
+			tabela1.addCell(col400);
+			tabela1.addCell(col500);
+
+			while (rs.next()) {
+				tabela1.addCell(rs.getString(1));
+				tabela1.addCell(rs.getString(2));
+				tabela1.addCell(rs.getString(3));
+				tabela1.addCell(rs.getString(4));
+				tabela1.addCell(rs.getString(5));
+				tabela1.addCell(rs.getString(6));
+			}
+			document.add(tabela1);
+
+			document.add(new Paragraph("Falta de estoque:"));
 			document.add(new Paragraph(" "));
 			String readClientes = "select codigo as código, nome as produto, date_format(dataval, '%d/%m/%Y') as validade, estoque, estoquemin as estóque_mínimo \r\n"
 					+ "from produtos where estoque < estoquemin";
-			try {
-
-				con = dao.conectar();
+			
 
 				pst = con.prepareStatement(readClientes);
 
@@ -416,7 +452,7 @@ public class Relatorios extends JDialog {
 
 				document.add(tabela);
 
-				document.add(new Paragraph("Validade:"));
+				document.add(new Paragraph("Produtos vencidos ou fora de garantia:"));
 				document.add(new Paragraph(" "));
 
 				String read = "select codigo as código, nome as produto, date_format(dataval, '%d/%m/%Y') as validade\r\n"
@@ -448,7 +484,7 @@ public class Relatorios extends JDialog {
 
 				String read2 = "select sum(valor * estoque) as Total from produtos";
 
-				pst = con.prepareStatement(read);
+				pst = con.prepareStatement(read2);
 				rs = pst.executeQuery();
 
 				PdfPTable tabela3 = new PdfPTable(1);
@@ -461,27 +497,9 @@ public class Relatorios extends JDialog {
 
 				document.add(tabela3);
 
-				document.add(new Paragraph(" "));
+				
 
-				document.add(new Paragraph("Patrimônio (venda):"));
-
-				document.add(new Paragraph(" "));
-
-				String readVenda = "select sum((custo + (custo * lucro)/100) * estoque) as total from produtos";
-
-				pst = con.prepareStatement(read);
-				rs = pst.executeQuery();
-
-				PdfPTable tabela4 = new PdfPTable(1);
-				PdfPCell col43 = new PdfPCell(new Paragraph("Patrimônio venda: "));
-				tabela4.addCell(col43);
-
-				while (rs.next()) {
-					tabela4.addCell(rs.getString(1));
-				}
-
-				document.add(tabela4);
-
+				
 				con.close();
 			} catch (Exception e) {
 				System.out.println(e);
@@ -496,6 +514,7 @@ public class Relatorios extends JDialog {
 			Desktop.getDesktop().open(new File("estoque.pdf"));
 		} catch (Exception e) {
 			System.out.println(e);
-		}
-	}
+		
+		}}
+
 }

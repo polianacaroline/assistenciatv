@@ -431,6 +431,7 @@ public class Clientes extends JDialog {
 		txtCidade.setText(null);
 		txtEndereco.setText(null);
 		txtCEP.setText(null);
+		cboUF.setSelectedIndex(0);
 
 	}
 
@@ -449,9 +450,7 @@ public class Clientes extends JDialog {
 		} else if (txtRG.getText().isEmpty()) {
 			JOptionPane.showMessageDialog(null, "Preencha o RG");
 			txtRG.requestFocus();
-		} else if (txtCNPJ.getText().isEmpty()) {
-			JOptionPane.showMessageDialog(null, "Preencha o CNPJ");
-			txtCNPJ.requestFocus();
+	
 		} else if (txtEndereco.getText().isEmpty()) {
 			JOptionPane.showMessageDialog(null, "Preencha o endereço");
 			txtEndereco.requestFocus();
@@ -503,14 +502,7 @@ public class Clientes extends JDialog {
 				con.close();
 
 			} catch (java.sql.SQLIntegrityConstraintViolationException e1) {
-				JOptionPane.showMessageDialog(null,
-						"Cliente não adicionado.\nEste CPF, RG ou EMAIL já está sendo utilizado.");
-				txtCPF.setText(null);
-				txtCPF.requestFocus();
-				txtRG.setText(null);
-				txtRG.requestFocus();
-				txtEmail.setText(null);
-				txtEmail.requestFocus();
+			System.out.println(e1);
 
 			} catch (Exception e2) {
 				System.out.println(e2);

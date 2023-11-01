@@ -542,6 +542,7 @@ public class Produtos extends JDialog {
 		getContentPane().add(lblEstoque_1_1_1);
 
 		txtLucro = new JTextField();
+		txtLucro.setText("0");
 		txtLucro.addKeyListener(new KeyAdapter() {
 			@Override
 			public void keyTyped(KeyEvent e) {
@@ -554,7 +555,6 @@ public class Produtos extends JDialog {
 			}
 
 		});
-		txtLucro.setText("0");
 		txtLucro.setFont(new Font("Arial", Font.PLAIN, 16));
 		txtLucro.setColumns(10);
 		txtLucro.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
@@ -706,14 +706,12 @@ public class Produtos extends JDialog {
 	 * Metodo responsavel por: adicionar um produto.
 	 */
 	private void adicionar() {
-
-		if (txtDesc.getText().isEmpty()) {
-			JOptionPane.showMessageDialog(null, "Preencha o campo 'Descrição'.");
-			txtDesc.requestFocus();
-		} else if (txtNome.getText().isEmpty()) {
+		if (txtNome.getText().isEmpty()) {
 			JOptionPane.showMessageDialog(null, "Preencha o campo 'Nome do produto*'.");
 			txtNome.requestFocus();
-
+		} else if (txtDesc.getText().isEmpty()) {
+			JOptionPane.showMessageDialog(null, "Preencha o campo 'Descrição'.");
+			txtDesc.requestFocus();
 		} else if (txtEstoque.getText().isEmpty()) {
 			JOptionPane.showMessageDialog(null, "Preencha o campo 'Estoque'.");
 			txtEstoque.requestFocus();
@@ -795,7 +793,9 @@ public class Produtos extends JDialog {
 
 				con.close();
 
-
+			} catch (com.mysql.cj.jdbc.exceptions.MysqlDataTruncation se) {
+				txtLucro.setText("0");
+				adicionar();
 				} catch (java.sql.SQLIntegrityConstraintViolationException e1) {
 					JOptionPane.showMessageDialog(null, "Cliente não adicionado.\nEste código de placa ou código de barras já está sendo utilizado. \n!!Verifique se o fornecedor existe.!!");
 					txtCodigoBarras.setText(null);
@@ -1096,6 +1096,8 @@ public class Produtos extends JDialog {
 		} else if (txtValor.getText().isEmpty()) {
 			JOptionPane.showMessageDialog(null, "Preencha o campo 'Valor'.");
 			txtValor.requestFocus();
+		} else if(txtLucro.getText().isEmpty()) {
+			txtLucro.setText("0");
 		} else if (txtArmazem.getText().isEmpty()) {
 			JOptionPane.showMessageDialog(null, "Preencha o campo 'Local de Armazenagem'.");
 			txtArmazem.requestFocus();
@@ -1138,7 +1140,9 @@ public class Produtos extends JDialog {
 				limparCampos();
 
 				con.close();
-
+			} catch (com.mysql.cj.jdbc.exceptions.MysqlDataTruncation se) {
+				txtLucro.setText("0");
+				editar();
 			} catch (Exception e) {
 
 				System.out.println(e);
@@ -1172,7 +1176,7 @@ public class Produtos extends JDialog {
 
 		} else {
 
-			String update = "update produtos set barcode=?, descricao=?, estoque=?, estoquemin=?, valor=?, medida=?, armazenagem=?, nome=?, lote=?, fabricante=?, lucro=?, dataent=?, codigodebarras=? where codigo=?";
+			String update = "update produtos set barcode=?, descricao=?, estoque=?, estoquemin=?, valor=?, medida=?, armazenagem=?, nome=?, lote=?, fabricante=?, lucro=?, dataent=?, codigobarras=? where codigo=?";
 
 			try {
 
